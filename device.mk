@@ -1,4 +1,4 @@
-LOCAL_PATH := device/ulefone/metal
+LOCAL_PATH := device/elephone/p8000
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -7,7 +7,7 @@ PRODUCT_AAPT_CONFIG := normal xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := metal
+TARGET_OTA_ASSERT_DEVICE := p8000,k06te,k05te
 
 PRODUCT_PACKAGES += \
    libmtk_symbols \

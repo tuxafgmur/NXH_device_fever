@@ -1,3 +1,3 @@
-add_lunch_combo full_metal-user
-add_lunch_combo full_metal-userdebug
-add_lunch_combo full_metal-eng
+add_lunch_combo full_p8000-user
+add_lunch_combo full_p8000-userdebug
+add_lunch_combo full_p8000-eng
