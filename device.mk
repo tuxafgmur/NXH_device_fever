@@ -7,7 +7,7 @@ PRODUCT_AAPT_CONFIG := normal xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := p8000,k06te,k05te
+TARGET_OTA_ASSERT_DEVICE := p8000,k06te,k05te,P8000
 
 PRODUCT_PACKAGES += \
    libmtk_symbols \
