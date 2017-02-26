@@ -72,4 +72,4 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 $(call inherit-product, vendor/mad/config/common.mk)
 
 # Vendor
-$(call inherit-product, vendor/ulefone/metal/metal-vendor.mk)
+$(call inherit-product, vendor/elephone/p8000/p8000-vendor.mk)
