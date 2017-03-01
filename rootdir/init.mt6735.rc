@@ -46,8 +46,8 @@ on post-fs
 
     # Workaround for old nvram blobs
     mkdir /dev/block/platform/mtk-msdc.0/by-name 0755 root system
-    symlink /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/nvram /dev/block/platform/mtk-msdc.0/by-name/nvram
-    symlink /dev/block/platform/mtk-msdc.0/11230000.MSDC0/by-name/proinfo /dev/block/platform/mtk-msdc.0/by-name/proinfo
+    symlink /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/nvram /dev/block/platform/mtk-msdc.0/by-name/nvram
+    symlink /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/proinfo /dev/block/platform/mtk-msdc.0/by-name/proinfo
 
     # Wifi
     mknod /dev/wmtWifi c 153 0
