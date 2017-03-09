@@ -433,6 +433,11 @@ lib64/libfs_mgr.so
 lib/libmrdump.so
 lib64/libmrdump.so
 
+lib64/fingerprint.mt6753.so
+lib64/libEtsdc.so
+lib64/libFpEts.so
+bin/etsd
+
 
 usr/keylayout/ACCDET.kl
 usr/keylayout/AVRCP.kl
